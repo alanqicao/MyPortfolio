@@ -24,7 +24,7 @@ class Projects extends Component {
         <CardActions border>
           <Button colored>Github</Button>
           <Button colored>CodePen</Button>
-          <Button colored>LiveDemo</Button>
+          <Button colored>Live</Button>
         </CardActions>
         <CardMenu style={{color:'#fff'}}>
           <IconButton name="share"/>
@@ -39,7 +39,7 @@ class Projects extends Component {
   <CardActions border>
     <Button colored>Github</Button>
     <Button colored>CodePen</Button>
-    <Button colored>LiveDemo</Button>
+    <Button colored>LiveD</Button>
   </CardActions>
   <CardMenu style={{color:'#fff'}}>
     <IconButton name="share"/>
