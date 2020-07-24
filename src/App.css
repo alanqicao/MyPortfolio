@@ -117,4 +117,24 @@ height: 100%;
   
 }
 
+.resumeAbout {
+  text-align: justify;
+  text-indent: 10%
+}
+
+.jobDescription {
+  text-align: justify;
+  
+}
+
+.resumeLink {
+  font-size: 3em;
+  padding-left: 10em;
+  
+}
+.resumeLink i{
+  padding:15px;
+  color: white;
+}
+
 /* Resume Page Css*/
