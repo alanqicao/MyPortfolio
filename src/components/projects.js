@@ -71,6 +71,8 @@ class Projects extends Component {
             </CardMenu>
           </Card>
 
+    
+
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
@@ -102,11 +104,85 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
+
+
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "white",
+                height: "176px",
+                background:
+                  "url(https://res.cloudinary.com/dvnkqa41b/image/upload/v1595622694/Screen_Shot_2020-07-24_at_2.27.58_PM_wxjgcq.png) center / cover",
+              }}
+            >
+              Ruby On Rails
+            </CardTitle>
+            <CardText>
+              Utoob A movies trailer webapp
+            </CardText>
+            <CardActions border>
+              <Button
+                colored
+                href="https://github.com/alanqicao/Social-Media-for-DevPoint-Student"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Github
+              </Button>
+              {/* <Button colored>CodePen</Button>
+              <Button colored>LiveD</Button> */}
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+
+
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "white",
+                height: "176px",
+                background:
+                  "url(https://res.cloudinary.com/dvnkqa41b/image/upload/v1595626114/Screenshot_72_vzpqtq.png) center / cover",
+              }}
+            >
+              {/* Java */}
+            </CardTitle>
+            <CardText>
+           Java-DOW  Day of week temperature recording and average 
+            </CardText>
+            <CardActions border>
+              <Button
+                colored
+                href="https://github.com/alanqicao/JAVA-DOW"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Github
+              </Button>
+              {/* {/* <Button colored>CodePen</Button> */}
+              <Button colored 
+              colored
+              href="https://www.youtube.com/watch?v=tnslP7fmolM"
+              rel="noopener noreferrer"
+              target="_blank"
+              >YouTube</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+
+
+
+
         </div>
       );
     } else if (this.state.activeTab === 1) {
       return (
-        <div>
+        <div className="projects-grid">
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
@@ -141,7 +217,7 @@ class Projects extends Component {
       );
     } else if (this.state.activeTab === 2) {
       return (
-        <div>
+        <div className="projects-grid">
             <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
@@ -190,12 +266,12 @@ class Projects extends Component {
           onChange={(tabId) => this.setState({ activeTab: tabId })}
           ripple
         >
-          <Tab>React</Tab>
-          <Tab>Ruby On Rails</Tab>
-          <Tab>Java</Tab>
+          <Tab>Projects</Tab>
+          {/* <Tab>Ruby On Rails</Tab>
+          <Tab>Java</Tab> */}
         </Tabs>
 
-        <Grid>
+        <Grid style={{marin:'auto'}}>
           <Cell col={12}>
             <div className="content">{this.toggleCategories()}</div>
           </Cell>

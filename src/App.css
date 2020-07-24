@@ -62,6 +62,9 @@ height: 100%;
 
 .projects-grid {
   display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
 
 /* contact page css */

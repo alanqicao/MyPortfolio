@@ -68,7 +68,7 @@ class Resume extends Component {
             <Experience
               startYear={2019}
               endYear={"Present"}
-              jobTitle ="Founder"
+              jobTitle =""
               jobName="Apollo Strings LLC"
               jobDescription1="Set up online violin store and brand using Amazon and Shopify."
               jobDescription2="Produced and designed the digital branding with Adobe."
@@ -89,7 +89,7 @@ class Resume extends Component {
               startYear={2018}
               endYear={2019}
               jobName="CMC Strings LLC"
-              jobTitle ="Co-Founder"
+              jobTitle =""
               jobDescription1="Repaired and hand-crafted violins and cellos while managing shop inventory."
               jobDescription2="Assisted customers with purchases."
               jobDescription3="Ensured customer satisfaction and shop’s quality of our work."
@@ -99,7 +99,7 @@ class Resume extends Component {
               startYear={2016}
               endYear={2018}
               jobName="Peter Prier & Sons Violins"
-              jobTitle ="Violin Maker and Restoration"
+              jobTitle =""
               jobDescription1="Restored high-end strings instruments."
               jobDescription2="Coordinated client and internal shop projects and assigned them to employees."
               jobDescription3="Trained interns in shop processes."
