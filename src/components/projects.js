@@ -14,7 +14,7 @@ class Projects extends Component {
   if (this.state.activeTab === 0){
     return(
        <div className="projects-grid">
-      {/* <Card shadow={5} style={{minWidth:'450',margin: 'auto'}}>
+      <Card shadow={5} style={{minWidth:'450',margin: 'auto'}}>
         <CardTitle style={{color: '#fff',height:'176px',background:'url() center / cover'}}>React Project #1</CardTitle>
         <CardText>
           sldkfjalskdjflaskdfjlks stome
@@ -42,8 +42,8 @@ class Projects extends Component {
   <CardMenu style={{color:'#fff'}}>
     <IconButton name="share"/>
   </CardMenu>
-</Card> */}
-<p>React</p>
+</Card>
+
 </div>
     
     )
@@ -64,7 +64,7 @@ class Projects extends Component {
           <IconButton name="share"/>
         </CardMenu>
       </Card>  
-      <p>Ruby</p>
+      
       </div>
       )} else if (this.state.activeTab === 2){
   return(
