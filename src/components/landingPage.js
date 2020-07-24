@@ -13,6 +13,7 @@ class LandingPage extends Component {
               className ="avatar-img"
             />
             <div className="banner-text">
+              
               <h1>Full Stack Web Developer</h1>
 
               <hr/>

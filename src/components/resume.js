@@ -1,9 +1,10 @@
 import React, { Component } from "react";
-import { Grid, Cell } from "react-mdl";
+import { Grid, Cell,Button } from "react-mdl";
 import resumeicon from "./img/resumeicon.png";
 import Education from "./education";
 import Experience from "./experience";
 import Skills from "./skills";
+import AlanResume from"./file/Qi_Cao_Resume.pdf"
 class Resume extends Component {
   render() {
     return (
@@ -25,7 +26,7 @@ class Resume extends Component {
               or restoring violins, using creative ways to solve problems and
               thinking outside the box is key. I’ve always been interested in
               computer science and I’m finally taking the leap into this great
-              wide world of coding.{" "}
+              wide world of coding.
             </p>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <h5>Address</h5>
@@ -39,8 +40,8 @@ class Resume extends Component {
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
+            {/* <Button ripple style ={{color:"white",marginLeft:"65%"}} onClick={<a src={AlanResume}></a>}><i class="fas fa-download" ></i> Download Resume</Button> */}
             <h2>Education</h2>
-
             <Education
               // startYear={2020}
               // endYear={"Present"}
@@ -66,8 +67,9 @@ class Resume extends Component {
             <h2>Experience</h2>
 
             <Experience
-              startYear={2009}
-              endYear={2012}
+              startYear={2019}
+              endYear={"Present"}
+              jobTitle ="Founder"
               jobName="Apollo Strings LLC"
               jobDescription1="Set up online violin store and brand using Amazon and Shopify."
               jobDescription2="Produced and designed the digital branding with Adobe."
@@ -85,24 +87,38 @@ class Resume extends Component {
             </div>
 
             <Experience
-              startYear={2012}
-              endYear={2016}
-              jobName="Second Job"
-              jobDescription1="Set up online violin store and brand using Amazon and Shopify.
-              • Produced and designed the digital branding with Adobe.
-              • Analyzed buyer data using a third-party software to direct marketing strategies.
-              • https://amzn.to/2YR47Ew
-              • https://www.viottimusic.com/"
+              startYear={2018}
+              endYear={2019}
+              jobName="CMC Strings LLC"
+              jobTitle ="Co-Founder"
+              jobDescription1="Repaired and hand-crafted violins and cellos while managing shop inventory."
+              jobDescription2="Assisted customers with purchases."
+              jobDescription3="Ensured customer satisfaction and shop’s quality of our work."
             />
+
+<Experience
+              startYear={2016}
+              endYear={2018}
+              jobName="Peter Prier & Sons Violins"
+              jobTitle ="Violin Maker and Restoration"
+              jobDescription1="Restored high-end strings instruments."
+              jobDescription2="Coordinated client and internal shop projects and assigned them to employees."
+              jobDescription3="Trained interns in shop processes."
+            />
+
+
 
             <hr style={{ borderTop: "3px solid #e22947" }} />
 
             <h2>Skills</h2>
 
-            <Skills skill="javascript" progress={100} />
+            <Skills skill="Javascript" progress={70} />
+            <Skills skill="React" progress={80} />
             <Skills skill="Ruby" progress={60} />
-            <Skills skill="java" progress={50} />
+            <Skills skill="Ruby On Rails" progress={60} />
+            <Skills skill="Java" progress={50} />
             <Skills skill="HTML/CSS" progress={70} />
+            <Skills skill="GIT" progress={60} />
           </Cell>
         </Grid>
       </div>

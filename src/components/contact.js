@@ -14,8 +14,8 @@ class Contact extends Component {
               style={{ height: "250px" }}
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              asdfasdfasdfasdfasdfasdfasdfsdasdfasdfasdfc xvzcxvasdfasdfasdfasd
-              fasdfasdfasdfasdfasdf asdfasdfasdfasdf
+            I'm a Salt Lake City based Software Engineer.
+              Experience with React, JS, Ruby, RubyOnRails.
             </p>
           </Cell>
           <Cell col={6}>
@@ -45,7 +45,7 @@ class Contact extends Component {
                     style={{ fontSize: "30px", fontFamily: "Anton" }}
                   >
                     <i className="fa fa-skype" aria-hidden="true" />
-                    MySkypeID: live:alanqicao
+                    MySkypeID: alanqicao
                   </ListItemContent>
                 </ListItem>
               </List>
