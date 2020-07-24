@@ -47,9 +47,8 @@ class Projects extends Component {
 </div>
     
     )
-  } else if (this.state.activeTab ===1){
+  } else if (this.state.activeTab === 1){
   return(
-  // project 2
   <div>
       {/* <Card shadow={5} style={{minWidth:'450',margin: 'auto'}}>
         <CardTitle style={{color: '#fff',height:'176px',background:'url() center / cover'}}>Ruby Project #2</CardTitle>
