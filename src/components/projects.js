@@ -50,7 +50,7 @@ class Projects extends Component {
   } else if (this.state.activeTab === 1){
   return(
   <div>
-      {/* <Card shadow={5} style={{minWidth:'450',margin: 'auto'}}>
+      <Card shadow={5} style={{minWidth:'450',margin: 'auto'}}>
         <CardTitle style={{color: '#fff',height:'176px',background:'url() center / cover'}}>Ruby Project #2</CardTitle>
         <CardText>
           sldkfjalskdjflaskdfjlks stome
@@ -63,7 +63,7 @@ class Projects extends Component {
         <CardMenu style={{color:'#fff'}}>
           <IconButton name="share"/>
         </CardMenu>
-      </Card>   */}
+      </Card>  
       <p>Ruby</p>
       </div>
       )} else if (this.state.activeTab === 2){
