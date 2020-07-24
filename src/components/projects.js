@@ -80,7 +80,7 @@ class Projects extends Component {
                   "url(https://res.cloudinary.com/dvnkqa41b/image/upload/v1595622684/Screen_Shot_2020-07-24_at_2.20.43_PM_w4sk5d.png) center / cover",
               }}
             >
-              React Projects
+              {/* React Projects */}
             </CardTitle>
             <CardText>
               DevPoint Social Media is a platform for DevPoint students to share
@@ -142,7 +142,41 @@ class Projects extends Component {
     } else if (this.state.activeTab === 2) {
       return (
         <div>
-          <h1>this is Java</h1>
+            <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "white",
+                height: "176px",
+                background:
+                  "url(https://res.cloudinary.com/dvnkqa41b/image/upload/v1595626114/Screenshot_72_vzpqtq.png) center / cover",
+              }}
+            >
+              {/* Java */}
+            </CardTitle>
+            <CardText>
+           Java-DOW  Day of week temperature recording and average 
+            </CardText>
+            <CardActions border>
+              <Button
+                colored
+                href="https://github.com/alanqicao/JAVA-DOW"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Github
+              </Button>
+              {/* {/* <Button colored>CodePen</Button> */}
+              <Button colored 
+              colored
+              href="https://www.youtube.com/watch?v=tnslP7fmolM"
+              rel="noopener noreferrer"
+              target="_blank"
+              >YouTube</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
         </div>
       );
     }
