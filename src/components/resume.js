@@ -4,7 +4,6 @@ import resumeicon from "./img/resumeicon.png";
 import Education from "./education";
 import Experience from "./experience";
 import Skills from "./skills";
-import AlanResume from"./file/Qi_Cao_Resume.pdf"
 class Resume extends Component {
   render() {
     return (
@@ -12,7 +11,7 @@ class Resume extends Component {
         <Grid>
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
-              <img src={resumeicon} alt="avatar" style={{ height: "200px" }} />
+              <img src="https://res.cloudinary.com/dvnkqa41b/image/upload/v1595620474/circle-cropped_rl2die.png" alt="avatar" style={{ height: "200px" }} />
             </div>
 
             <h2 style={{ paddingTop: "2em" }}>Alan Cao</h2>
