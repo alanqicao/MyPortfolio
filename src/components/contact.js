@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell, List, ListItem, ListItemContent } from "react-mdl";
+import contactMe from './img/contactMe.jpg'
 
 class Contact extends Component {
   render() {
@@ -8,19 +9,20 @@ class Contact extends Component {
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Alan Cao</h2>
-            <img
-              src="https://www.sandraseasycooking.com/wp-content/uploads/2019/03/contact-me.jpg"
-              alt="avatar"
-              style={{ height: "250px" }}
-            />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
             I'm a Salt Lake City based Software Engineer.
               Experience with React, JS, Ruby, RubyOnRails.
             </p>
+            <img
+              src={contactMe}
+              alt="avatar"
+              style={{ height: "250px" }}
+            />
           </Cell>
           <Cell col={6}>
             {/* <h2>Contact Me</h2> */}
-            <hr />
+            {/* <hr /> */}
+            {/* <hr /> */}
 
             <div className="contact-list">
               <List>
