@@ -97,8 +97,13 @@ class Projects extends Component {
               >
                 Github
               </Button>
-              {/* <Button colored>CodePen</Button>
-    <Button colored>LiveD</Button> */}
+              {/* <Button colored>CodePen</Button> */}
+              <Button colored 
+              colored
+              href="https://devpoint-social-media.herokuapp.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+              >Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
