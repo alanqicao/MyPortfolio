@@ -76,22 +76,21 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
-                color: "black",
+                color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://res.cloudinary.com/dvnkqa41b/image/upload/v1595622684/Screen_Shot_2020-07-24_at_2.20.43_PM_w4sk5d.png) center / cover",
+                  "url(https://res.cloudinary.com/dvnkqa41b/image/upload/v1611130428/Screen_Shot_2021-01-20_at_1.08.04_AM_nz6cic.png) center / cover",
               }}
             >
-              {/* React Projects */}
+              Amazon Clone
             </CardTitle>
             <CardText>
-              DevPoint Social Media is a platform for DevPoint students to share
-              their favorite movies, books, and music.
+              Amazon Clone ia a Full-stack webpage it has login auth user order track, and third party payment system
             </CardText>
             <CardActions border>
               <Button
                 colored
-                href="https://github.com/alanqicao/Social-Media-for-DevPoint-Student"
+                href="https://github.com/alanqicao/Amazon-Clone-Full-stack"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -100,7 +99,7 @@ class Projects extends Component {
               {/* <Button colored>CodePen</Button> */}
               <Button colored 
               colored
-              href="https://devpoint-social-media.herokuapp.com/"
+              href="https://challenge-5bcae.web.app/"
               rel="noopener noreferrer"
               target="_blank"
               >Live Demo</Button>
@@ -150,18 +149,18 @@ class Projects extends Component {
                 color: "white",
                 height: "176px",
                 background:
-                  "url(https://res.cloudinary.com/dvnkqa41b/image/upload/v1595626114/Screenshot_72_vzpqtq.png) center / cover",
+                  "url(https://res.cloudinary.com/dvnkqa41b/image/upload/v1611130446/Screen_Shot_2021-01-20_at_1.07.29_AM_htqmsm.png) center / cover",
               }}
             >
-              {/* Java */}
+              NetFlix clone
             </CardTitle>
             <CardText>
-           Java-DOW  Day of week temperature recording and average 
+            This NetFlix clone page have fade in Navbar when you scroll, random trending movie in the banner, API call from other website, auto play movie trailer, and some css slow fade hover. 
             </CardText>
             <CardActions border>
               <Button
                 colored
-                href="https://github.com/alanqicao/JAVA-DOW"
+                href="https://github.com/alanqicao/Netflix-clone"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -170,10 +169,10 @@ class Projects extends Component {
               {/* {/* <Button colored>CodePen</Button> */}
               <Button colored 
               colored
-              href="https://www.youtube.com/watch?v=tnslP7fmolM"
+              href="https://netflix-clone-32eac.web.app/"
               rel="noopener noreferrer"
               target="_blank"
-              >YouTube</Button>
+              >Live Demo</Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
