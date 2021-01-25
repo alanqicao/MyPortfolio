@@ -116,25 +116,30 @@ class Projects extends Component {
                 color: "white",
                 height: "176px",
                 background:
-                  "url(https://res.cloudinary.com/dvnkqa41b/image/upload/v1595622694/Screen_Shot_2020-07-24_at_2.27.58_PM_wxjgcq.png) center / cover",
+                  "url(https://res.cloudinary.com/dvnkqa41b/image/upload/v1611602799/Screen_Shot_2021-01-25_at_12.25.15_PM_jixrip.png) center / cover",
               }}
             >
-              Ruby On Rails
+              Robinhood Clone
             </CardTitle>
             <CardText>
-              Utoob A movies trailer webapp
+             Robinhood Clone is a React app that has real time stock market price, you can add share to your personal stock account.
             </CardText>
             <CardActions border>
               <Button
                 colored
-                href="https://github.com/alanqicao/Social-Media-for-DevPoint-Student"
+                href="https://github.com/alanqicao/Robinhood-Clone"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 Github
               </Button>
-              {/* <Button colored>CodePen</Button>
-              <Button colored>LiveD</Button> */}
+              <Button colored 
+              colored
+              href="https://robinhood-ad05e.web.app/"
+              rel="noopener noreferrer"
+              target="_blank"
+              >Live Demo</Button>
+
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -152,7 +157,7 @@ class Projects extends Component {
                   "url(https://res.cloudinary.com/dvnkqa41b/image/upload/v1611130446/Screen_Shot_2021-01-20_at_1.07.29_AM_htqmsm.png) center / cover",
               }}
             >
-              NetFlix clone
+              NetFlix Clone
             </CardTitle>
             <CardText>
             This NetFlix clone page have fade in Navbar when you scroll, random trending movie in the banner, API call from other website, auto play movie trailer, and some css slow fade hover. 
@@ -178,11 +183,9 @@ class Projects extends Component {
               <IconButton name="share" />
             </CardMenu>
           </Card>
-
-
-
-
         </div>
+    
+
       );
     } else if (this.state.activeTab === 1) {
       return (
